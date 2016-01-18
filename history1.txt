@@ -1,0 +1,131 @@
+    1  git
+    2  git config --global user.name = "Kevin Olson"
+    3  cat ~/.gitconfig
+    4  git config --global user.name "Kevin Olson"
+    5  git config --global user.email "achilles2865@gmail.com"
+    6  cat ~/.gitconfig
+    7  git config --global user.name "Kevin"
+    8  cat ~/.gitconfig
+    9  git config --global replace.all user.name "Kevin Olson"
+   10  cat ~/.gitconfig
+   11  mkdir website
+   12  cd website
+   13  touch index.html
+   14  pwd
+   15  ls
+   16  git init
+   17  ls -alh
+   18  git status
+   19  git add index.html
+   20  git status
+   21  git commit
+   22  git status
+   23  git log
+   24  git commit
+   25  git status
+   26  git add index.html
+   27  git status
+   28  pwd
+   29  git commit
+   30  git status
+   31  git diff
+   32  git status
+   33  git add index.html
+   34  git status
+   35  git commit -m "Add first paragraph"
+   36  git diff
+   37  git status
+   38  cd website
+   39  git status
+   40  cd website
+   41  git commit -m "Add the second paragraph"
+   42  git add-index.html
+   43  git
+   44  git add index.html
+   45  git status
+   46  git commit -m "Add the second paragraph"
+   47  git log
+   48  git log --oneline
+   49  git checkout 554298a
+   50  git checkout master
+   51  mkdir css
+   52  touch css/style.css
+   53  clear
+   54  git status
+   55  git add css/style.css index.html 
+   56  git status
+   57  git commit -m "Add stylesheet and link to home page"
+   58  git status
+   59  clear\
+   60  git branch
+   61  git checkout -b about_page
+   62  cp index.html about.html
+   63  git status
+   64  git add about.html
+   65  git status
+   66  git commit -m "Add an about page"
+   67  git status
+   68  git log
+   69  clear
+   70  git checkout -b contact_page
+   71  cp index.html contact.html
+   72  git status
+   73  git add contact.html
+   74  git status
+   75  git commit -m "Add a contact page"
+   76  git status
+   77  git log
+   78  git status
+   79  git add contact.html
+   80  git status
+   81  git commit -m "Add a contact page"
+   82  git status
+   83  git checkout master
+   84  git merge about_page
+   85  git checkout contact_page
+   86  git merge master
+   87  git checkout master
+   88  git merge contact_page
+   89  git branch
+   90  git branch -d about_page
+   91  git branch -d contact_page
+   92  git branch
+   93  clear
+   94  history
+   95  history > history.txt
+   96  git blame index.html
+   97  git checkout -b stuff_boss_wants
+   98  git status
+   99  git commit -m "Reverse paragraphs and add mission statement"
+  100  git commit -am "Reverse paragraphs and add mission statement"
+  101  git status
+  102  git add history.txt
+  103  git commit -m "Add history.txt"
+  104  git status
+  105  git checkout master
+  106  git status
+  107  git commit -am "Update phrasing on paragraphs"
+  108  git checkout stuff_boss_wants
+  109  clear
+  110  sjkldfha
+  111  git merge master
+  112  git status
+  113  git commit -am "add to mission statement"
+  114  git status
+  115  git merge master
+  116  git status
+  117  git commit -am index.html
+  118  git status
+  119  git checkout master
+  120  git merge stuff_boss_wants 
+  121  git remote add origin https://github.com/kolson133/awesomeco_website.git
+  122  git push origin master
+  123  git checkout -b feature/kgo-fix-paragraphs
+  124  git satus
+  125  git status
+  126  git commit -am "reverse paragraph again"
+  127  git push origin feature/kgo-fix-paragraphs 
+  128  git checkout master
+  129  git pull origin master
+  130  git status
+  131  history > history1.txt
